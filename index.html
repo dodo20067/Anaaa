@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
+  <title>Ana Carolina VIP 🔥</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <img class="banner" src="images/banner.jpg" alt="Banner">
+    <img class="avatar" src="images/avatar.jpg" alt="Ana Carolina">
+  </header>
+
+  <section class="info">
+    <h1>Ana Carolina VIP 🔥</h1>
+    <p class="username">@anacarolinavip • Santa Catarina</p>
+    <div class="bio">
+      Oi amor 😈 Tô louca de tesão o dia todo…<br>
+      Aqui é meu OnlyFans brasileiro: fotos e vídeos sem censura, nudes, masturbação, gozando gostoso…<br>
+      Compra um pack via PIX que libero tudo na hora + papo safado no WhatsApp 💦
+    </div>
+
+    <div class="actions">
+      <button class="btn-vip" onclick="openPacks()">Comprar Pack VIP</button>
+      <button class="btn-mimo" onclick="openMimos()">Mandar Mimo 💝</button>
+      <button class="btn-chat" onclick="openWhatsApp()">WhatsApp Quente</button>
+    </div>
+  </section>
+
+  <section class="grid" id="grid"></section>
+
+  <a href="https://wa.me/5541988887777" class="floating-wa" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Modais -->
+  <div id="lightbox" class="modal"><span class="close" onclick="closeModal('lightbox')">×</span><img id="lb-img"></div>
+  <div id="packsModal" class="modal">...</div> <!-- vou colar completo no final -->
+  <div id="mimosModal" class="modal">...</div>
+  <div id="pixModal" class="modal">...</div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
